@@ -1,4 +1,4 @@
-###OS 7 PILARES
+### OS 7 PILARES
 
 Um website sobre uma saga épica escrita por mim
 
