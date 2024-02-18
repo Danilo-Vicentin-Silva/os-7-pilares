@@ -1,5 +1,7 @@
 ### OS 7 PILARES
 
+<img src="/assets/images/project-cover.webp" alt="Projeto"/>
+
 ## Sobre
 
 Um website sobre uma saga épica escrita por mim
