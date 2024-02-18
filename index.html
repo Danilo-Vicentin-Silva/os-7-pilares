@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Os 7 Pilares</title>
+    <meta
+      name="description"
+      content="Oséias é um jovem comerciante, com um passado assombrado pela morte de seu pai, que se sente obrigado a terminar a missão de salvar os reinos da Grande Montanha do terrível reinado de Iseu, especialmente quando seu irmão morre tentando realizar o sonho de seu pai, tantos anos negligenciado por Oséias. Mas para isso, precisa ser muito inteligente para combater o mundo com um pequeno exército herdado de seu pai. Os 7 Pilares é uma história sobre realizar o impossível, na terra do impossível, mundo esse que teme pelo cumprimento da Profecia do Mar quando uma entidade poderosa surge das profundezas do Vazio."
+    />
+    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/components/bookCards.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+  </head>
+  <body>
+    <header>
+      <h1 class="text-color">Os 7 Pilares</h1>
+      <ul>
+        <li>
+          <button onclick="comebackHome()">Home</button>
+        </li>
+        <!-- <li><button>Sobre</button></li> -->
+        <li>
+          <button>
+            <a
+              href="https://portfolio-danilo-vicentin.vercel.app/"
+              rel="nofollow"
+              target="_blank"
+              >Portfólio
+            </a>
+          </button>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section id="title">
+        <img src="assets\images\logo-7-pilares.webp" id="logo" class="logos" alt="logo" />
+        <img
+          src="./assets/images/logo-book-1.webp"
+          alt="logo do primeiro livro"
+          id="logo-book-1"
+          class="logos"
+        />
+        <p class="phrases" id="phrase">
+          <q>
+            <i>
+              Uma épica saga de superação diante da Profecia do Mar, e uma
+              poderosa entidade do Vazio
+            </i>
+          </q>
+        </p>
+        <p class="phrases" id="phrase-book-1">
+          <q>
+            <i>
+              Diante o terrível reinado de Iseu, o jovem Oséias parte em busca de ajuda de outros reinos além da montanha
+            </i>
+          </q>
+        </p>
+      </section>
+      <section>
+        <div class="book book-1" onclick="playVideo(1)"></div>
+        <div class="book book-2"><p>EM BREVE...</p></div>
+        <div class="book book-3"><p>EM BREVE...</p></div>
+      </section>
+      <section class="book-cards">
+        <img src="./assets/images/capa-livro-1.webp" alt="capa livro 1" />
+        <ul>
+          <li>
+            <p><strong>Título:</strong> Os 7 Pilares</p>
+          </li>
+          <li>
+            <p><strong>Subtítulo:</strong> A Jornada Além da Montanha</p>
+          </li>
+          <li>
+            <p><strong>Autor:</strong> Danilo Vicentin S</p>
+          </li>
+          <li>
+            <p>
+              <strong>Sinopse:</strong> Oséias é um jovem comerciante, com um
+              passado assombrado pela morte de seu pai, que se sente obrigado a
+              terminar a missão de salvar os reinos da Grande Montanha do
+              terrível reinado de Iseu, especialmente quando seu irmão morre
+              tentando realizar o sonho de seu pai, tantos anos negligenciado
+              por Oséias. Mas para isso, busca ajuda de reinos além da montanha
+              para conseguir vencer o exército implacável de Iseu. Porém, a
+              jornada apresenta diversos perigos e obstáculos, ensinamentos e
+              escolhas, riscos esses que envolveram os sagrados 7 Pilares,
+              principais sustentadores do universo.
+            </p>
+          </li>
+          <li>
+            <!-- <div class="action-buttons">
+              <button type="button">SAIBA MAIS</button>
+              <button type="button">ADQUIRA O SEU</button>
+            </div> -->
+          </li>
+        </ul>
+      </section>
+    </main>
+    <video autoplay loop muted src="./assets/videos/background.mp4">
+      Seu navegador não suporta vídeo
+    </video>
+    <video
+      id="video-1"
+      autoplay
+      loop
+      muted
+      src="./assets/videos/video-book-1.mp4"
+    >
+      Seu navegador não suporta vídeo
+    </video>
+    <audio autoplay>
+      <source src="assets/sounds/soundtrack.mp3" type="audio/mp3" />
+      Seu navegador não suporta audio
+    </audio>
+    <footer>
+      <small>
+        <i>
+          <p>Desenvolvido por Danilo Vicentin S</p>
+          <p>&#169 2024</p>
+        </i>
+      </small>
+    </footer>
+  </body>
+  <script src="./js/main.js"></script>
+</html>

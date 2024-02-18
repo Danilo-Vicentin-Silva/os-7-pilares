@@ -1,0 +1,108 @@
+video {
+  z-index: -1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+#title,
+logo-book-1 {
+  text-align: center;
+  width: 100%;
+}
+
+#title img {
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+#title p {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  padding: 10px;
+}
+
+.book {
+  background-color: rgba(149, 149, 149, 0.401);
+  height: 404px;
+  width: 250px;
+  border-radius: 5px;
+  position: absolute;
+  top: 35%;
+  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+
+  cursor: pointer;
+  transition: 500ms linear;
+}
+
+.book:hover {
+  transform: scale(1.1);
+}
+
+.book-1 {
+  background: url("../assets/images/capa-livro-1.webp") no-repeat center center;
+  background-size: cover;
+
+  left: 5%;
+  animation-delay: 1s;
+}
+
+.book-2 {
+  left: 40%;
+  animation-delay: 2s;
+}
+
+.book-3 {
+  left: 75%;
+  animation-delay: 3s;
+}
+
+#video-1 {
+  display: none;
+}
+
+#logo-book-1 {
+  display: none;
+  margin: auto;
+}
+
+#phrase-book-1 {
+  display: none;
+}
+
+@media screen and (max-width: 1124px) {
+  .logos {
+    width: 60vw;
+  }
+  .phrases {
+    width: 90vw;
+    margin: auto;
+  }
+  .book {
+    height: 200px;
+    width: 125px;
+  }
+
+  .book-1 {
+    left: 3%;
+  }
+  .book-2 {
+    left: 37%;
+  }
+  .book-3 {
+    left: 70%;
+  }
+}
