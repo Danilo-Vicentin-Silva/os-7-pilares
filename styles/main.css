@@ -83,6 +83,11 @@ logo-book-1 {
   display: none;
 }
 
+.action-buttons a {
+  text-decoration: none;
+  color: white;
+}
+
 @media screen and (max-width: 1124px) {
   .logos {
     width: 60vw;
